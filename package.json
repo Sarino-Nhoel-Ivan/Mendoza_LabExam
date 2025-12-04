@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "sports-pwa-app",
   "version": "1.0.0",
@@ -26,32 +25,3 @@
     "mongodb": "^7.0.0"
   }
 }
-=======
-{
-  "name": "sports-pwa-app",
-  "version": "1.0.0",
-  "description": "Full-Stack Real-Time Progressive Web Application with Secure Authentication - Sports Theme",
-  "main": "server/index.js",
-  "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd server && npm run dev",
-    "client": "cd client && npm start",
-    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
-  },
-  "keywords": [
-    "pwa",
-    "sports",
-    "react",
-    "express",
-    "mongodb"
-  ],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  },
-  "dependencies": {
-    "mongodb": "^7.0.0"
-  }
-}
->>>>>>> 59cce31e39b989aab54997d7bea6196f868bc9dd
